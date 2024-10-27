@@ -1,0 +1,166 @@
+body {
+    background-color: #F8F8F8;
+}
+
+.both {
+    
+    display: flex;
+    width: 880px;
+    margin: auto,;
+}
+
+.register {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40vh;
+    margin-top: 200px;
+}
+
+.para {
+    flex: 1;
+}
+
+
+.register_first_last {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.register_container {
+    width: 400px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+    margin-right: 20px;
+}
+
+.para {
+    flex: 1;
+}
+
+.para_container a {
+    margin-right: 370px;
+    color: orange;
+    margin-bottom: 10px;
+}
+
+.para_container {
+    margin-top: 130px;
+    margin-left: 40px;
+}
+
+.para_container button {
+    background-color: orange;
+    color: #fff;
+    width: 200px;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+}
+
+.para_container button:hover {
+    background-color: #FF8C00;
+}
+
+.para_container div {
+    margin-bottom: 20px;
+}
+
+.para_container p {
+    margin-bottom: 10px;
+}
+
+.register {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.register h2 {
+    /* padding-bottom: 30px; */
+    text-align: center;
+    margin-top: 20px;
+}
+
+.register_first_last {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+
+.register_container form {
+    margin-bottom: 10px;
+}
+
+.register_container form input {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 3px;
+    box-sizing: border-box;
+}
+
+.register_container form input:first-child,
+.register_container form input:last-child {
+    width: 98%;
+}
+
+.register_container form input:focus {
+    outline: 2px solid skyblue;
+}
+
+.register_container form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.register_container form button:hover {
+    background-color: #0056b3;
+}
+
+.register_container a {
+    /* display: block; */
+    text-align: center;
+    margin-top: 10px;
+    color: orange;
+    text-decoration: none;
+}
+
+.register_container a:hover {
+    text-decoration: underline;
+}
+
+.bg {
+    background-color: #f5f5f5;
+    background-image: url("https://www.evangadi.com/themes/humans/assets/images/misc/bg-svg-f.svg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+    /* margin-top: 10px; */
+}
+
+@media screen and (max-width: 768px) {
+    .both {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .register_container {
+        margin-right: 400px;
+    }
+
+    .para_container {
+        width: 420px;
+        margin-left: 40px;
+        margin-top: 180px;
+    }
+}

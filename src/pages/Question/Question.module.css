@@ -1,0 +1,65 @@
+body {
+  background-color: rgb(250, 250, 250);
+}
+
+.container {
+  margin-left: 7%;
+  margin-right: 7%;
+  margin-top: -10px;
+}
+
+/* Scrollable container for all answers */
+.scrollableContainer {
+  max-height: 400px; /* Set max height for scrolling */
+  overflow-y: auto; /* Enable vertical scrolling */
+  background-color: #f0f0f0; /* Background color for the scrollable area */
+  border: 1px solid #ddd; /* Optional: border for the scrollable area */
+  border-radius: 8px; /* Rounded corners */
+  padding: 15px; /* Inner padding */
+}
+
+/* Container for each answer */
+.answer__container {
+  margin-bottom: 15px; /* Space between answers */
+  display: flex;
+  align-items: center;
+}
+
+/* SVG and profile section */
+.profile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 15px;
+}
+
+/* Circle background for the SVG */
+.circle__background {
+  background-color: rgb(2, 37, 83);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px; /* Adjust as needed */
+  height: 50px; /* Adjust as needed */
+  border-radius: 50%;
+}
+
+/* Styling for the username under the SVG */
+.profile p {
+  margin: 8px 0 0 0; /* Space above username */
+  font-size: 1.0em;
+}
+
+/* Styling for the answer text */
+.answer__text {
+  font-size: 1.07em;
+  color: #333;
+}
+
+/* Horizontal line divider */
+.answerDivider {
+  margin: 10px 0; /* Space above and below the line */
+  border: 0; /* Remove default border */
+  color:green;
+  border-top: 1px solid rgba(0, 0, 0, 0.1); /* Light horizontal line */
+}

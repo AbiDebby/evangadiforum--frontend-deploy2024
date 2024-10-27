@@ -1,0 +1,44 @@
+.askQuestion_container {
+  display: flex;
+  justify-content: center;
+  /* background-color: aqua; */
+}
+
+.ask_container {
+  display: flex;
+  justify-content: center;
+}
+
+.noUnderline {
+  text-decoration: none;
+  color: orange;
+}
+
+.form_container input {
+  width: 100%;
+  max-width: 600px;
+  height: 35px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+.form_container textarea {
+  width: 100%;
+  max-width: 600px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+.button {
+  padding: 8px 16px;
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+  width: 200px;
+}
+
+.button:hover {
+  background-color: #0056b3;
+}

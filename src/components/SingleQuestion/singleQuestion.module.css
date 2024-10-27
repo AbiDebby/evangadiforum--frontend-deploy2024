@@ -1,0 +1,47 @@
+.container{
+    margin-top:50px;
+    margin-left  : 100px;
+    margin-right :100px;
+}
+.Question{
+   
+   padding-bottom:30px; 
+   /* margin-bottom: 30px; */
+   font-size: 6vh;
+   font-family:monospace;
+   color:rgb(22, 22, 22)
+
+}
+.Question__title {
+  font-size: 30px;
+  color: rgb(72, 38, 2);
+  font-weight: bold;
+  padding-left: 20px; /* Padding for text */
+  position: relative; /* Position relative for pseudo-element positioning */
+}
+
+.Question__title::after {
+  content: ''; /* Required for pseudo-element */
+  display: block; /* Block level for full width */
+  width: 20%; /* Adjust width to make the underline smaller */
+  height: 4px; /* Height of the underline */
+  background-color: orange; /* Color of the underline */
+  position: absolute; /* Position it absolutely */
+  left: calc(20px + 30px); /* Align with text + add left margin (adjust as needed) */
+  bottom: -5px; /* Adjust as needed to position the underline */
+  font-weight: bold; /* Make the underline bold */
+}
+
+.Question__desc{
+    font-size: 20px;
+    padding-left: 60px;
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+.Title{
+    font-weight:bolder;
+    color:rgb(34, 29, 29);
+    font-size: 38px;
+    padding-top: -200px;
+    margin: 0;
+}

@@ -1,0 +1,25 @@
+.question__link {
+  text-decoration: none;
+  color: var(--color-primary);
+}
+
+.question__hover {
+  background-color: rgba(242, 242, 242, 0.7);
+}
+.question__avatar {
+  color: #fff;
+  background-color: var(--color-primary);
+  /* border-radius: 100%; */
+}
+
+.icon__container {
+  width: 6ram;
+  height: 6ram;
+  border-radius: 100%;
+  border: 3px solid var(--color-primary);
+}
+
+.question,
+.transition {
+  transition: all 0.5s;
+}

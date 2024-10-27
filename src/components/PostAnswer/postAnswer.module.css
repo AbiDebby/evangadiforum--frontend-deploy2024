@@ -1,0 +1,27 @@
+.container{
+    margin-top:50px;
+    margin-left  : 100px;
+    margin-right :100px;
+}
+textarea{
+    display: block;
+    margin-top: -35px;
+    width: 98%;
+    height:130px;
+    border-radius: 5px;
+    padding-left: 10PX;
+    padding-top: 10px;
+    font-size: large;
+
+}
+.button{
+    background-color:rgb(11,94,215);
+    color:white;
+    border:none;
+    margin-top: 20px;
+    border-radius: 7px;
+    height: 40px;
+    width:130px;
+    font-size:medium;
+    font-weight: lighter;
+}
